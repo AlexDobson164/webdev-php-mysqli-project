@@ -22,7 +22,11 @@ include("includes/header.php");
       <h2>Thank You</h2>
     </div>
     <section class="twoColumn">
-
+    <?php
+      echo "<div>";
+      echo $_POST['firstname'];
+      echo "</div>";
+    ?>
 <div class="sideBar">
         <h3>Featured Film</h3>
         <div> <img src="images/babadook.jpg" alt="Babadook" /> </div>

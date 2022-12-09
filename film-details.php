@@ -29,7 +29,9 @@ include("includes/header.php");
 <div class="mainContainer">
   <main>
     <div class="banner">
-      <h2>Film Title Here</h2>
+      <?php
+      echo "<h2>{$obj->filmTitle}</h2>"
+      ?>
     </div>
     <section class="twoColumn">
     <div>
